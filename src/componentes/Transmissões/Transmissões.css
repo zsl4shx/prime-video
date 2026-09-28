@@ -1,0 +1,171 @@
+.transmissoes {
+    min-height: 550px;
+    padding: 72px;
+    background: #00050e;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.transmissoes h1 {
+    position: relative;
+    z-index: 2;
+    max-width: 620px;
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: bold;
+    margin: -85px 0 40px 0;
+    letter-spacing: 1px;
+}
+
+.transmissoes p {
+    position: relative;
+    z-index: 2;
+    max-width: 580px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.img-paramount {
+    position: absolute;
+    z-index: 2;
+    right: 33%;
+    top: 32%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-hbomax {
+    position: absolute;
+    z-index: 2;
+    right: 18%;
+    top: 32%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-appletv {
+    position: absolute;
+    z-index: 2;
+    right: 3%;
+    top: 32%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-premiere {
+    position: absolute;
+    z-index: 2;
+    right: 33%;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-telecine {
+    position: absolute;
+    z-index: 2;
+    right: 18%;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-globo {
+    position: absolute;
+    z-index: 2;
+    right: 3%;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-universal {
+    position: absolute;
+    z-index: 2;
+    right: 33%;
+    top: 72%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-looke {
+    position: absolute;
+    z-index: 2;
+    right: 18%;
+    top: 72%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+.img-mgm {
+    position: absolute;
+    z-index: 2;
+    right: 3%;
+    top: 72%;
+    transform: translateY(-50%);
+    width: 190px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #111c2b;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 0.9;
+}
